@@ -10,7 +10,8 @@ The **File Type** tab lets you add a bilingual corpus with any of the following 
 *	**Tab-delimited Text File (*.txt, *.tsv, *.utx)**. A file where every line consists of a number of fields 
 	delimited with the tab character. The first and the second fields of an entry are assumed to be the source 
 	and the target texts respectively. The additional fields are assumed to be descriptive and there can be any 
-	number of them. Tab-delimited UTX files are also supported with this format. 
+	number of them. Tab-delimited UTX files are also supported with this format. This file type now also includes support 
+	for Excel glossary in *.xlsx format. 
 *	**XLIFF File (*.xlf, *.xlif, *.xliff, *.mxliff, *.xlz, *.mqxlz)**. A file compliant with the XLIFF specification.
 *	**TMX Memory (*.tmx)**. A file compliant with the TMX specification. Most translation tools are capable of generating
 	TMX translation memories of varying compliance levels.
@@ -27,7 +28,8 @@ The **File Type** tab lets you add a bilingual corpus with any of the following 
 	first language pair found in the project file.
 *	**Trados Studio Memory (*.sdltm)**. A Trados Studio Translation Memory in .sdltm format.
 *	**memoQ File**. A memoQ XLIFF file with .mqxlz or .mqxliff extension, a memoQ hand-off file (\*.mqout), a memoQ hand-back
-	file (\*.mqback) file, or a memoQ termbase file (\*.csv). 
+	file (\*.mqback) file, or a memoQ termbase file (\*.csv). This file type now includes support for memoQ 
+	exported .rtf bilingual files
 *	**SDLX File (\*.itd)**. An SDLX .itd file. **Note:** This option requires that SDLX is installed on the machine. 
 *	**SDLX Memory (\*.mdb)**. An individual SDLX .mdb file containing a translation memory.
 *	**STAR Transit 2.6/XV/NXT Directory**. A directory that contains Transit language pairs.
